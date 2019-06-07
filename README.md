@@ -3,6 +3,17 @@
 ## GitHub API
 You will be using the GitHub API for this project. You can view documentation for this API [here](https://developer.github.com/v3/). This is an open API: no API key or authentication is required for the endpoints we will be using.
 
+Notice the GitHub API documentation includes the following except. They require you to
+add a custom header to your requests.
+
+<blockquote>
+By default, all requests to https://api.github.com receive the v3 version of the REST API. We encourage you to explicitly request this version via the Accept header.
+</blockquote>
+
+```
+Accept: application/vnd.github.v3+json
+```
+
 #### [User Search Endpoint](https://developer.github.com/v3/search/#search-users)
 You can search for users matching a certain name. For example if we wanted to find all users name `octocat`, we would make a `GET` request to `https://api.github.com/search/users?q=octocat`. To view the response, you can copy and paste that URL into your browser.
 
