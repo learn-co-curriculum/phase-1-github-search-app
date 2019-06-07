@@ -3,7 +3,7 @@
 ## GitHub API
 You will be using the GitHub API for this project. You can view documentation for this API [here](https://developer.github.com/v3/). This is an open API: no API key or authentication is required for the endpoints we will be using.
 
-Notice the GitHub API documentation includes the following except. They require you to
+Notice the GitHub API documentation includes the following excerpt. They require you to
 add a custom header to your requests.
 
 <blockquote>
