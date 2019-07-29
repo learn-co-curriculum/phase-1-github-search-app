@@ -56,7 +56,7 @@ show all the repositories for that user.
    [User Repos Endpoint](#user-repos-endpoint) and return data about all the
    repositories for that user.
 4. Using the response from the Users Repos Endpoint, display all the
-   respositories for that user on the page.
+   repositories for that user on the page.
 
 ## Bonus
 
