@@ -1,4 +1,4 @@
-# GitHub Search App
+# Additional Practice: GitHub Search App
 
 ## GitHub API
 
