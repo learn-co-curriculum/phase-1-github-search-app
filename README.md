@@ -1,23 +1,29 @@
 # Additional Practice: GitHub Search App
 
-## GitHub API
+## Learning Goals
+
+- Practice accessing information from APIs and using it to update the DOM
+- Practice listening for user events and updating the DOM in response
+
+## Instructions
 
 You will be using the GitHub API for this project. You can view documentation
 for this API [here](https://developer.github.com/v3/). This is an open API: no
 API key or authentication is required for the endpoints we will be using.
 
-Notice the GitHub API documentation includes the following excerpt. They require
-you to add a custom header to your requests.
+Notice the GitHub API documentation includes the following excerpt:
 
-<blockquote>
-By default, all requests to https://api.github.com receive the v3 version of the REST API. We encourage you to explicitly request this version via the Accept header.
-</blockquote>
+> By default, all requests to https://api.github.com receive the v3 version 
+> of the REST API. We encourage you to explicitly request this version via 
+> the Accept header.
+
+They require you to add a custom header to your requests:
 
 ```text
 Accept: application/vnd.github.v3+json
 ```
 
-#### [User Search Endpoint](https://developer.github.com/v3/search/#search-users)
+### [User Search Endpoint](https://developer.github.com/v3/search/#search-users)
 
 You can search for users matching a certain name. For example, if we wanted to
 find all users name `octocat`, we would make a `GET` request to
@@ -28,7 +34,7 @@ This endpoint is rate limited. This means the API will stop returning data if
 you make more than
 [10 requests per minute](https://developer.github.com/v3/search/#rate-limit).
 
-#### [User Repos Endpoint](https://developer.github.com/v3/repos/#list-user-repositories)
+### [User Repos Endpoint](https://developer.github.com/v3/repos/#list-user-repositories)
 
 You can find all the public repositories for a user using this endpoint. For
 example if we wanted to find all the repositories for a user with GitHub
