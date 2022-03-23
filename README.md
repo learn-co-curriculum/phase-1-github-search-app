@@ -1,4 +1,4 @@
-# Additional Practice: GitHub Search App
+# GitHub Search App
 
 ## Learning Goals
 
