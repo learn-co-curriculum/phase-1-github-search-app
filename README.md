@@ -23,6 +23,15 @@ They require you to add a custom header to your requests:
 Accept: application/vnd.github.v3+json
 ```
 
+Note that this lab **does not contain tests**. You will be working from the
+requirements described below and verifying that your code is working correctly
+in the browser.
+
+Once you're done, be sure to commit and push your code up to GitHub, then submit
+the assignment using CodeGrade. Even though this practice lab does not have
+tests, it must still be submitted through CodeGrade in order to be marked as
+complete in Canvas.
+
 ### [User Search Endpoint](https://developer.github.com/v3/search/#search-users)
 
 You can search for users matching a certain name. For example, if we wanted to
